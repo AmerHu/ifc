@@ -28,7 +28,7 @@ def analyze_ifc_rooms(file_path):
             print("-"*40)
 
     except Exception as e:
-        print(f"error in : {str(e)}")
+        print(f"error in  : {str(e)}")
 
 file_path = "Project.ifc"
 analyze_ifc_rooms(file_path)
